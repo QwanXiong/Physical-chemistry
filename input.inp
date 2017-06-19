@@ -1,0 +1,9 @@
+#SYSTEM use_extern_R = false
+ use_extern_TS = false
+ show_fr= false
+! units =  cm
+ #end
+#calc m=50000 E0=20754.32561 T=1500 1100 1380 #end
+#reagent frq=prod_frequencies.txt extern=.REAG except=except.txt #end
+#ts frq=ts_frequencies.txt  #end
+
